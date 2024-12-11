@@ -46,7 +46,7 @@ function addTask(event) {
    
     todoInput.value = '';
 
-    
+    // This was to show the visibility of the clear tasks button
     updateClearCompletedVisibility();
 
     console.log(`Task added: ${taskText}`);
